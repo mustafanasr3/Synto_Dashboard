@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>synto - Bootstrap 5 Premium Admin & Dashboard Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link rel="stylesheet" href="/assets/libs/apexcharts/dist/apexcharts.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+
+
+<body class="dark-bg d-flex align-items-center justify-content-center">
+
+  <!-- particles.js container -->
+
+  <div id="particles-js" class="position-absolute top-0 start-0 w-100 h-100  ">
+    <!-- stats - count particles -->
+    <div class="count-particles ">
+
+    </div>
+  </div>
+  <div class="d-flex align-items-center justify-content-center mt-14 position-relative z-3">
+    <div class="text-center ">
+      <div class="css-a952hd mx-auto">
+        <img src="/assets/imgs/Authentication/Maintaince/img-error-500-My2FASzk.svg" alt="">
+      </div>
+      <!-- <h1 class="sm:fs-9xl text-primary ff-semibold">
+        500
+      </h1> -->
+      <h3 class="text-3xl mt-2 text-light mb-2">
+        Internal Server Error
+      </h3>
+      <p class="text-xs text-white-70   mx-auto w-75">
+        Server error 500. we fixing the problem. please try again at a later stage.
+      </p>
+      <a href="/Main/Dashboard/Sales.html" class="btn btn-primary text-sm text-light pady-2 padx-3 rounded-1">
+        Back to Home
+      </a>
+    </div>
+  </div>
+
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+  <!-- End Main Section -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+
+  <script src="/js/all.min.js"></script>
+
+  <script src="/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/1.0.0/particles.js"
+    integrity="sha512-uo7v7+Hs1LLi055P4KhLW7GOZnZkaM54dg5qOYwGpXOthRCQTCEFCnzRMdEhp81UBIx/0ecnSTPukg6qdDPGRA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/assets/libs/particles.js-master/particles.min.js"></script>
+  <script src="/Authentications/ErrorPages/Js/404.js"></script>
+  <script>
+    particlesJS("particles-js", { "particles": { "number": { "value": 80, "density": { "enable": true, "value_area": 400 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "" }, "polygon": { "nb_sides": 5 }, "image": {} }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 2, "random": true, "anim": { "enable": false, "speed": 100, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 15, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    Particles.init({
+      selector: '.error-basic-background',
+      // color: 'rgba(24, 46 ,118,0.5)',
+      color: 'rgba(90, 102 ,241,0.8)',
+      number: {
+        value: 80,
+        density: {
+          enable: true,
+          value_area: 200
+        }
+      },
+    });
+
+
+  </script>
+
+</body>
+
+</html>

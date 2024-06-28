@@ -1,0 +1,88 @@
+/* IBM */
+@font-face {
+  font-family: "IBM-100";
+  src: url(/assets/fonts/IBM/IBMPlexSans-Thin.ttf);
+}
+@font-face {
+  font-family: "IBM-200";
+  src: url(/assets/fonts/IBM/IBMPlexSans-Light.ttf);
+}
+@font-face {
+  font-family: "IBM-300";
+  src: url(/assets/fonts/IBM/IBMPlexSans-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "IBM-400";
+  src: url(/assets/fonts/IBM/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+  font-family: "IBM-500";
+  src: url(/assets/fonts/IBM/IBMPlexSans-Medium.ttf);
+}
+@font-face {
+  font-family: "IBM-600";
+  src: url(/assets/fonts/IBM/IBMPlexSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "IBM-700";
+  src: url(/assets/fonts/IBM/IBMPlexSans-Bold.ttf);
+}
+/* Montserret */
+@font-face {
+  font-family: "Montserrat-100";
+  src: url(/assets/fonts/Montserrat/static/Montserrat-Thin.ttf);
+}
+@font-face {
+  font-family: "Montserrat-200";
+  src: url(/assets/fonts/Montserrat/static/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat-300";
+  src: url(/assets/fonts/Montserrat/static/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat-400";
+  src: url(/assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat-500";
+  src: url(/assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat-600";
+  src: url(/assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+/* Inter */
+@font-face {
+  font-family: "Inter-100";
+  src: url(/assets/fonts/Inter/static/Inter-Thin.ttf);
+}
+@font-face {
+  font-family: "Inter-200";
+  src: url(/assets/fonts/Inter/static/Inter-Light.ttf);
+}
+@font-face {
+  font-family: "Inter-250";
+  src: url(/assets/fonts/Inter/static/Inter-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Inter-300";
+  src: url(/assets/fonts/Inter/static/Inter-Light.ttf);
+}
+@font-face {
+  font-family: "Inter-400";
+  src: url(/assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter-500";
+  src: url(/assets/fonts/Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: "Inter-600";
+  src: url(/assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Inter-700";
+  src: url(/assets/fonts/Inter/static/Inter-Bold.ttf);
+}
